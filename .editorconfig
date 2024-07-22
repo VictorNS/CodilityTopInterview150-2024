@@ -1,0 +1,13 @@
+﻿# Editor configuration, see https://editorconfig.org
+root = true
+
+[*]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.cs]
+# CA1050: Declare types in namespaces
+dotnet_diagnostic.CA1050.severity = none
+# CA1822: Mark members as static
+dotnet_diagnostic.CA1822.severity = none

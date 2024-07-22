@@ -2,12 +2,22 @@ public class MergeSortedArray
 {
     public static void Run()
     {
-        var s = new Solution();
-        int[] nums1 = [1, 2, 3, 0, 0, 0];
-        int[] nums2 = [2, 5, 6];
+        Run(0, [], []);
+        Run(1, [1], []);
+        Run(0, [0], [2]);
+        Run(3, [1, 2, 3, 0, 0, 0], []);
+        Run(3, [1, 2, 3, 0, 0, 0], [2, 5, 6]);
+    }
 
-        s.Merge(nums1, 3, nums2, 3);
+    private static void Run(int m, int[] nums1, int[] nums2)
+    {
         Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(nums1));
+        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(nums2));
+        var s = new Solution();
+        s.Merge(nums1, m, nums2, nums2.Length);
+		Console.WriteLine("=>");
+		Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(nums1));
+        Console.WriteLine();
     }
 
     public class Solution
