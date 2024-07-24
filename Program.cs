@@ -1,1 +1,1 @@
-﻿MergeSortedArray.Run();
+﻿RemoveElement.Run();
