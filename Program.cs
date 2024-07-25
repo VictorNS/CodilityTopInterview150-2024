@@ -1,1 +1,1 @@
-﻿RemoveElement.Run();
+﻿RemoveDuplicatesFromSortedArray.Run();
