@@ -1,1 +1,1 @@
-﻿RemoveDuplicatesfromSortedArrayII.Run();
+﻿MajorityElement.Run();
