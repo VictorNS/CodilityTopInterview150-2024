@@ -1,1 +1,1 @@
-﻿MajorityElement.Run();
+﻿RotateArray.Run();
