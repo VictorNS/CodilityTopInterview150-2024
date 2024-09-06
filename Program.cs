@@ -1,1 +1,1 @@
-﻿InsertDeleteGetRandomO1.Run();
+﻿ProductOfArrayExceptSelf.Run();
